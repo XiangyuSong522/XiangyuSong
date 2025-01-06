@@ -13,4 +13,6 @@
 
 ### 实验结果
 
-lego训练20次的结果如下：<img src="lego.gif" alt="alt text" width="800">
+lego训练20次的结果如下（左侧为原始图像，右侧为3dgs渲染结果）：
+
+<img src="lego.gif" alt="alt text" width="800">
