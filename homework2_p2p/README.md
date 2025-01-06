@@ -1,5 +1,15 @@
 # Assaignment 2 -Pix2Pix
 
+### 代码
+
+1.下载 code.zip文件
+
+2.运行：
+```
+bash download_facades_dataset.sh
+python train.py
+```
+
 ### 网络设计
 
 与原论文类似，对称的编码器-解码器结构，形似字母"U"；跳跃连接(Skip Connection)机制，保留细节信息；同时多尺度特征融合，结合高层语义和低层细节。由于显存的原因，每层的通道数最大为256。
